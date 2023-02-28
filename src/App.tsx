@@ -236,6 +236,7 @@ const CalculationWindow = () => {
             value={pressure}
           ></FormControl>
         </InputGroup>
+        {/* @ts-ignore */}
         <Button onClick={calculateStep1}>Calculate</Button>
         <Table style={{ marginTop: 12 }} striped bordered hover>
           <tbody>
